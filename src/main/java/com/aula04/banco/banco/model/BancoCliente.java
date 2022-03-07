@@ -1,7 +1,7 @@
 package com.aula04.banco.banco.model;
 
-import com.aula04.banco.banco.dto.RequestCliente;
-import com.aula04.banco.banco.dto.RequestDeposito;
+import com.aula04.banco.banco.utils.dto.RequestCliente;
+import com.aula04.banco.banco.utils.dto.RequestDeposito;
 
 import java.util.*;
 

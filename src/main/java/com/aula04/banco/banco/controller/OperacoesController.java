@@ -1,7 +1,7 @@
 package com.aula04.banco.banco.controller;
 
 import com.aula04.banco.banco.BancoAula04Application;
-import com.aula04.banco.banco.dto.RequestDeposito;
+import com.aula04.banco.banco.utils.dto.RequestDeposito;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

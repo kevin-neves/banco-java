@@ -12,7 +12,8 @@ import java.util.UUID;
 public class Cliente {
     private UUID id;
     private String nome;
+    private Number idade;
     private String email;
     private String senha;
-
-    private List<Conta> contas;}
+    private List<Conta> contas;
+}

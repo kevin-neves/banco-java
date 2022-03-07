@@ -1,7 +1,7 @@
 package com.aula04.banco.banco.service;
 
 import com.aula04.banco.banco.BancoAula04Application;
-import com.aula04.banco.banco.dto.RequestCliente;
+import com.aula04.banco.banco.utils.dto.RequestCliente;
 import com.aula04.banco.banco.model.Cliente;
 import com.aula04.banco.banco.model.Conta;
 import com.aula04.banco.banco.model.TipoConta;
@@ -25,6 +25,7 @@ public class ClienteService {
         Cliente cliente = new Cliente(
                 UUID.randomUUID(),
                 requestCliente.getNome(),
+                requestCliente.getIdade(),
                 requestCliente.getEmail(),
                 requestCliente.getSenha(),
                 contas

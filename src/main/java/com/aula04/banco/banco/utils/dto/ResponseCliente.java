@@ -1,4 +1,4 @@
-package com.aula04.banco.banco.dto;
+package com.aula04.banco.banco.utils.dto;
 
 
 import com.aula04.banco.banco.model.Cliente;
@@ -7,7 +7,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 import java.util.stream.Collectors;
@@ -17,12 +16,14 @@ import java.util.stream.Collectors;
 public class ResponseCliente {
     private UUID id;
     private String nome;
+    private Number idade;
     private String email;
     private List<Conta> contas;
 
     public ResponseCliente(Cliente cliente){
         this.id = cliente.getId();
         this.nome = cliente.getNome();
+        this.idade = cliente.getIdade();
         this.email = cliente.getEmail();
         this.contas = cliente.getContas();
     }

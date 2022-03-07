@@ -1,4 +1,4 @@
-package com.aula04.banco.banco.dto;
+package com.aula04.banco.banco.utils.dto;
 
 import lombok.Getter;
 import lombok.Setter;
